@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 
-import Navbar from "./component/Navbar";
+import Navbar from "./components/Navbar";
 
-import Footer from "./component/Footer";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ProductList from "./pages/ProductList";
 import ProductDetails from "./pages/ProductDetails";
@@ -23,7 +23,7 @@ const App = () => {
         </Routes>
 
         <Footer />
-        
+
       </BrowserRouter>
     </Provider>
   );
